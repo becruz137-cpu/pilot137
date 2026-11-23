@@ -1,0 +1,13 @@
+если ты на iPad --- >  pip install -r requirements.txt
+
+если ты работаешь в ноуте ------- исползывай команды ниже для скачивание программы.
+python3 -m pip install uvicorn fastapi
+python3 -m pip install sqlalchemy
+
+
+чтобы запустить сайт тебе нужен команды ниже.
+python3 -m uvicorn main_ram:app --reload
+
+python3 -m uvicorn virtual_db:app --reload
+
+python3 -m uvicorn local_db:app --reload
